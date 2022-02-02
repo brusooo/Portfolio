@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/brusooo/Portfolio/master/assets/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- PreLoader -->
+    <div class="loader">
+      <div class="circle">
+        <span style="--i: 1"></span>
+        <span style="--i: 3"></span>
+        <span style="--i: 5"></span>
+        <span style="--i: 7"></span>
+        <span style="--i: 9"></span>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+      <h1>Brusooo <span>.</span></h1>
+      <ul class="navigation">
+        <li><a class="navigationBtn active" href="#">Home</a></li>
+        <li><a class="navigationBtn" href="#about">About</a></li>
+        <li><a class="navigationBtn" href="#skills">Skills</a></li>
+        <li><a class="navigationBtn" href="#travel">Travel</a></li>
+        <li><a class="navigationBtn" href="#contact">Contact</a></li>
+      </ul>
+      <div class="box">
+        <div class="menu" onclick="toggleMenu()">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home">
+      <div class="content">
+        <h1>Hey Everyone <span class="exclamatory">!</span></h1>
+        <p>Want to Know About Me</p>
+        <a href="#">Hire Me</a>
+      </div>
+      <div class="proImg">
+        <img
+          src="https://raw.githubusercontent.com/brusooo/Portfolio/master/assets/Silhouette.svg"
+          alt="Profile Image"
+        />
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+      <div class="imgBx">
+        <img
+          src="https://raw.githubusercontent.com/brusooo/Portfolio/master/assets/removed.png"
+          alt="me"
+        />
+      </div>
+      <div class="aboutContainer">
+        <div class="quote">
+          <h1>Let Me Introduce Myself</h1>
+          <div class="separator"></div>
+        </div>
+        <div class="aboutContent">
+          <h1>Hi I&prime;am Jenifar</h1>
+          <p>
+            Currently I&prime;m a student who pursuing my bachleor&prime;s
+            degree in Computer stream . I am a guy who got charmed by programs
+            and web designs. I can't stop learning new things; the more, the
+            better. Soon you can see me as a one of the top programmers in the
+            World.
+            <br /><br />
+            Beyond that ,this world has a lot to explore . Some are known
+            places,but there many places which is unknown and mysterious . I
+            want to explore all the places in the world. This is all about me .
+            Scroll down and see more about myself.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="quote">
+        <h1>Skills I developed</h1>
+        <div class="separator"></div>
+      </div>
+
+      <div class="skillsContainer">
+        <div class="skill">
+          <div class="title">
+            <i class="fab fa-html5"></i>
+            <p class="html">Html</p>
+            <p class="percent">90%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="title">
+            <i class="fab fa-css3-alt"></i>
+            <p class="css">CSS</p>
+            <p class="percent">83%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="title">
+            <i class="fab fa-js-square"></i>
+            <p class="js">JS</p>
+            <p class="percent">65%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="title">
+            <i class="fab fa-react"></i>
+            <p class="react">React</p>
+            <p class="percent">20%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skillsContainer move">
+        <div class="skill">
+          <div class="title">
+            <i class="fab fa-python"></i>
+            <p class="python">Python</p>
+            <p class="percent">70%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="title">
+            <i class="fas fa-code-branch"></i>
+            <p class="firebase">Firebase</p>
+            <p class="percent" p>3%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="title">
+            <i class="fab fa-php"></i>
+            <p class="php">php</p>
+            <p class="percent" p>10%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="title">
+            <i class="fas fa-database"></i>
+            <p class="mysql">MySQL</p>
+            <p class="percent">50%</p>
+          </div>
+          <div class="bar">
+            <div class="percentage"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skillSlogan">
+        <p>Continue to Study and Learn new Skills</p>
+        <p><i class="hypen">-</i> Edie McClurg</p>
+      </div>
+    </section>
+
+    <!--Travel-->
+    <section class="travel" id="travel">
+      <div class="quote">
+        <h1>My Journey</h1>
+        <div class="separator"></div>
+      </div>
+
+      <div class="character"></div>
+
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2000</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2001</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2002</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2003</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2004</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2005</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2006</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2007</h1>
+            </div>
+            <div class="swiper-slide">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h1>2008</h1>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="contact">
+      <div class="quote">
+        <h1>Contact Me</h1>
+        <div class="separator"></div>
+      </div>
+      <div class="formContainer">
+        <div class="touch">
+          <h1>Let&prime;s get in touch</h1>
+        </div>
+        <div class="formContent">
+          <form action="#">
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              id="name"
+              name="user"
+              placeholder="Enter Your Name"
+              required
+            /><br /><br />
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+              required
+            /><br /><br />
+            <label for="comments">Comments</label><br />
+            <textarea
+              name="comments"
+              id="comments"
+              cols="28"
+              rows="5"
+              placeholder="Leave Your Comments Here..."
+            ></textarea
+            ><br /><br />
+            <input type="submit" id="mess" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Copyright &copy 2022 <span>Brusooo</span>.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="func.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b0f494353e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
